@@ -392,7 +392,7 @@ def welcome_rules(message):
 @bot.message_handler(commands=['plan'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
+    response = f'''{user_name}, BAKIYO KI TARAH NAHI HUN ISLIYE 10RS SE START HUN!!:
 
 Vip 🌟 :
 -> Attack Time : 500 (S)
@@ -440,7 +440,7 @@ def broadcast_message(message):
         else:
             response = "🤖 Please Provide A Message To Broadcast."
     else:
-        response = "Only Admin Can Run This Command 😡."
+        response = "BHAK BSDK AUKAT MAIN RAHA LE 😡."
 
     bot.reply_to(message, response)
 
